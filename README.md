@@ -21,15 +21,56 @@ A solução proposta consiste em uma aplicação web para centralizar essas info
 
 ## Protótipo inicial
 
-Nesta etapa do projeto foi desenvolvido um protótipo visual da aplicação, contendo as seguintes telas:
+O protótipo inicial do Estoque Inteligente foi desenvolvido no Figma
+e apresenta as principais telas previstas para a aplicação.
 
-- Login;
-- Dashboard;
-- Estoque;
-- Detalhes do Produto;
-- Cadastro de Produto;
-- Movimentação;
-- Alertas.
+### 1. Login
+
+Tela inicial de acesso ao sistema.
+
+![Tela de Login](docs/prototipo/login.png)
+
+### 2. Dashboard
+
+Apresenta uma visão geral do estoque, incluindo indicadores,
+produtos com estoque baixo e itens próximos do vencimento.
+
+![Dashboard](docs/prototipo/dashboard.png)
+
+### 3. Estoque
+
+Permite consultar os produtos cadastrados, suas quantidades,
+datas de validade e situações de estoque.
+
+![Tela de Estoque](docs/prototipo/estoque.png)
+
+### 4. Detalhes do produto
+
+Apresenta informações específicas do produto e seu histórico
+de movimentações.
+
+![Detalhes do Produto](docs/prototipo/detalhes-do-produto.png)
+
+### 5. Cadastro de produto
+
+Tela destinada ao cadastro de produtos e insumos,
+incluindo quantidade inicial e estoque mínimo.
+
+![Cadastro de Produto](docs/prototipo/cadastro.png)
+
+### 6. Movimentação
+
+Permite representar o registro de entradas e saídas
+de produtos, com quantidade, data e observações.
+
+![Tela de Movimentação](docs/prototipo/movimentacao.png)
+
+### 7. Alertas
+
+Apresenta os avisos relacionados a produtos com estoque baixo
+ou próximos do vencimento.
+
+![Tela de Alertas](docs/prototipo/alertas.png)
 
 As telas representam a solução inicial e serão utilizadas como base para as próximas etapas de desenvolvimento.
 
